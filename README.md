@@ -38,6 +38,13 @@ module.exports = {
 
 ```
 
+## Data Fetching
+```bash
+
+# thecocktaildb.com
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita';
+
+
 
 ## Learn More
 
