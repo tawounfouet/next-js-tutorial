@@ -45,6 +45,12 @@ module.exports = {
 const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita';
 
 
+# lookup drink by id
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=';
+
+# single drink by id
+import Link from 'next/link';
+const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=';
 
 ## Learn More
 
