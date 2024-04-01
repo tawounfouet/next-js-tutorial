@@ -25,7 +25,18 @@ npx create-next-app@latest appName
 
 ```sh
 npm run dev
+
+npm run dev --verbose   // to see the output
+
+
 ```
+
+#### Clear Build Cache:
+Try clearing the Next.js build cache by deleting the .next directory in your project and rebuilding the application.
+```sh
+rm -rf .next
+```
+
 
 ## Home Page
 

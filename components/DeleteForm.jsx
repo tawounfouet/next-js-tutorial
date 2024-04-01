@@ -1,11 +1,22 @@
-import React from 'react'
+'use client';
+import { deleteTask } from '@/utils/actions';
+import { useFormStatus } from 'react-dom';
 
-const DeleteForm = () => {
+const SubmitButton = () => {
+  const { pending } = useFormStatus();
   return (
-    <div>
-        DeleteForm
-    </div>
-  )
-}
+    <button className='btn btn-xs btn-error' disabled={pending}>
+      {pending ? 'pending...' : 'delete'}
+    </button>
+  );
+};
 
-export default DeleteForm
+const DeleteForm = ({ id }) => {
+  return (
+    <form action={deleteTask}>
+      <input type='hidden' name='id' value={id} />
+      <SubmitButton />
+    </form>
+  );
+};
+export default DeleteForm;
