@@ -20,3 +20,11 @@ datasource db {
 //   provider = "sqlite"
 //   url      = "file:./dev.db"
 // }
+
+// ## Create Task Model
+model Task {
+  id String @id @default(uuid())
+  content String
+  createdAt DateTime @default(now())
+  completed Boolean @default(false)
+}
