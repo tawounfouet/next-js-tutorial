@@ -21,7 +21,7 @@ const fetchDrinks = async () => {
 
 const DrinkPage = async () => {
   const data = await fetchDrinks();
-  // console.log(data);
+  console.log(data);
     return (
       <div>
         <DrinksList drinks={data.drinks} />

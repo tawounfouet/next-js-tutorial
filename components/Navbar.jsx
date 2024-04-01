@@ -6,13 +6,14 @@ const links = [
     { href:'/drinks', label: 'drinks'},
     { href:'/tasks', label: 'tasks'},
     { href:'/query', label: 'query'},
+    { href:'/testing', label: 'testing'},
 ]
 
 const Navbar = () => {
     return (
-        <nav className='bg-base-300 py-2'>
-            <div className='navbar px-8 max-w-6xl mx-auto flex-col sm:flex-row'>
-                <Link href='/' className='btn btn-info rounded-btn'>
+        <nav className='bg-base-200 py-2'>
+            <div className='navbar px-6 max-w-6xl mx-auto flex-col sm:flex-row'>
+                <Link href='/' className='btn btn-success rounded-btn'>
                     Next.js
                 </Link>
             
