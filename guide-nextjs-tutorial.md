@@ -1740,6 +1740,22 @@ export const config = {
 };
 ```
 
+## Render Cloud - For Deployment
+
+```sh
+# Create a new Render account
+
+# create a postgres database
+
+# copy the connection string and add to .env
+DATABASE_URL=postgres://test_postgres_db_j4l2_user:jXFkz7VbxJEOkCyvbjN5LwZlTbybdZ1G@dpg-co59m3i1hbls73ch74ug-a.oregon-postgres.render.com/test_postgres_db_j4l2
+
+# run prisma db pus`
+npx prisma db push
+
+ npx prisma studio
+```
+
 ## PlanetScale
 
 [Host DB](https://planetscale.com/)
@@ -1827,6 +1843,12 @@ tasks.js
 ```js
 export const dynamic = 'force-dynamic';
 ```
+
+```sh
+npm run build
+```
+
+
 
 ## Deploy
 
