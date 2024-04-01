@@ -1526,7 +1526,8 @@ export const createTaskCustom = async (prevState, formData) => {
 ```
 
 ## Providers
-
+Add beautiful notifications to your React app with react-hot-toast.
+[Toast Docs](https://react-hot-toast.com/docs)
 [Beautiful Toasts](https://react-hot-toast.com/)
 
 ```sh
