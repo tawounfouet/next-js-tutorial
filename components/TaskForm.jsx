@@ -11,7 +11,7 @@ const TaskForm = () => {
           name='content'
           required
         />
-        <button type='submit' className='btn btn-primary join-item'>
+        <button type='submit' className='btn bg-accent join-item'>
           create task
         </button>
       </div>

@@ -12,7 +12,7 @@ const SubmitBtn = () => {
   return (
     <button
       type='submit'
-      className='btn btn-primary join-item'
+      className='btn  bg-accent join-item'
       disabled={pending}
     >
       {pending ? 'please wait...' : 'create task'}
